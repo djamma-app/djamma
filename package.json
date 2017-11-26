@@ -1,0 +1,30 @@
+{
+  "name": "djamma",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^4.12.0",
+    "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^21.2.1",
+    "prettier": "^1.8.2",
+    "prettier-eslint": "^8.2.2",
+    "prettier-eslint-cli": "^4.4.0",
+    "react-test-renderer": "16.0.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest --watch"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-native": "^0.50.0"
+  }
+}
