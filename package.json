@@ -18,7 +18,13 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "jest --watch"
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint '**/*.js'",
+    "pretty":
+      "prettier-eslint --single-quote --trailing-comma es5 --write \"**/*.js\" \"**/*.json\"",
+    "pretty:check":
+      "prettier-eslint --single-quote --trailing-comma es5 --list-different --log-level silent \"**/*.js\" \"**/*.json\""
   },
   "jest": {
     "preset": "react-native"
